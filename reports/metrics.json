@@ -1,0 +1,17 @@
+{
+  "training_mean_val_mae": 10.154,
+  "linear_regression_val_mae": 9.317,
+  "training_mean_test_mae": 9.649,
+  "linear_regression_test_mae": 8.573,
+  "network_val_mae": 2.616,
+  "network_test_mae": 2.461,
+  "main_settings": {
+    "lr": 0.003,
+    "hidden": 64,
+    "layers": 2,
+    "batch_size": 64,
+    "epochs": 150
+  },
+  "seed": 42,
+  "torch": "2.15.0+cpu"
+}

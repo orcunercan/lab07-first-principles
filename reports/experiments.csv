@@ -1,0 +1,5 @@
+run,changed,best_epoch,best_val_mae,final_train_loss,final_val_loss
+main,-,106,2.616,9.434,17.642
+lr_too_small,lr=1e-05,150,9.252,194.381,226.67
+lr_too_large,lr=0.1,44,2.959,17.316,24.037
+much_wider_deeper,"hidden=512, layers=4",44,2.639,5.192,22.727
