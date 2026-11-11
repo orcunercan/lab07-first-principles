@@ -10,6 +10,8 @@ pythonpath = ["."]
 [tool.ruff]
 line-length = 88
 src = [".", "tests"]
+# bikes_data.py is given by the lab and must stay unchanged
+extend-exclude = ["bikes_data.py"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
